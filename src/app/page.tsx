@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import type { MediaInfo, DownloadRequest, ApiResponse } from "@/types/media";
 
 // ─── Inline styles (no Tailwind dependency needed) ───────────────────────────
@@ -108,6 +108,7 @@ const s = {
     fontSize: "0.78rem",
     color: "var(--muted)",
   },
+  muted: { color: "var(--muted)", fontSize: "0.88rem" },
 };
 
 const PLATFORMS = ["YouTube", "TikTok", "Instagram", "X/Twitter", "Facebook", "Reddit", "Pinterest"];
