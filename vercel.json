@@ -23,6 +23,6 @@
     }
   },
   "env": {
-    "COBALT_API_URL": "@cobalt_api_url"
+    "COBALT_API_URL": "https://api.cobalt.tools"
   }
 }
